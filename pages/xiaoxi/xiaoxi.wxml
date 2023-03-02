@@ -1,0 +1,13 @@
+
+<view class="container">
+  <van-notice-bar
+  class="n"
+  color="#1989fa"
+  background="#ecf9ff"
+  left-icon="info-o"
+  text="{{xi}}" 
+/>
+<!-- mode="closeable" -->
+
+
+</view>

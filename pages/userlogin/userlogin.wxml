@@ -1,0 +1,15 @@
+<view>
+  <view class="contaner">
+  <view class="zhanghao">
+  <text>账号</text>
+<input type="text" model:value="{{ zhanghao }}" />
+
+</view>
+<view class="mima">
+  <text>密码</text>
+<input type="password"model:value="{{ mima }}"/>
+</view>
+
+<button class="btn" bindtap="login">登录</button>
+</view>
+</view>

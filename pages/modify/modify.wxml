@@ -1,0 +1,17 @@
+<!--pages/modefy/modify.wxml-->
+<view class="contaner">
+  <!-- <view class="zhanghao" >
+  <text>账号</text>
+<input type="text" model:value="{{ zhanghao }}" />
+
+</view> -->
+<view class="mima">
+  <text>新密码</text>
+<input type="password" model:value="{{ mima }}"/>
+</view>
+<view class="mima">
+  <text>确认密码</text>
+<input type="password" model:value="{{ queren }}"/>
+</view>
+<button class="btn" bindtap="modify">确认修改</button>
+</view>

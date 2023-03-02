@@ -1,0 +1,21 @@
+<view class="container">
+  <view wx:for="{{list}}" wx:key="_id">
+  <view class="postItem">
+  <!-- 头像 -->
+  <view class="userPic">
+    <image class="image" src="{{item.avatar_url}}" lazy-load />
+  </view>
+  <view class="content">
+    <!-- 昵称 -->
+   <view class="head">
+      <view class="userName">{{item.nick_name}}</view>
+      
+    </view>
+    打卡天数: {{item.number}}
+  </view>
+   
+  </view>
+      
+   
+  </view>
+</view>

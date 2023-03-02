@@ -1,0 +1,13 @@
+<!--pages/daka/daka.wxml-->
+
+<calendar selected="{{selected}}" bindselect="bindselect" bindgetdate="bindgetdate" />
+<!-- <view class='other'>我是其他元素</view> -->
+<view style="margin-top: 50%;">
+  <view >
+   <p style="margin-left: 40%; background-color: rgb(44, 148, 44);font-size: larger;">天数：{{number}}</p> 
+  </view>
+
+  <button bindtap="upNumber" style="margin-top: 50%;width: 50%;" type="primary">打卡</button>
+ 
+</view>
+

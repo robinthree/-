@@ -1,0 +1,10 @@
+<!--pages/guanli/guanli.wxml-->
+<view style="margin-top: 10%;">
+  <BlockBox >
+    <van-cell-group>
+    <van-cell title="查看打卡" is-link border="{{false}}" bindtap="check" />
+  <van-cell title="管理帖子" is-link border="{{false}}" bindtap="checktz" />
+  </van-cell-group>
+    </BlockBox >
+  
+</view>

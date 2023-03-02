@@ -1,0 +1,6 @@
+{
+  "usingComponents": { "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "BlockBox": "/components/BlockBox/BlockBox"},
+  "navigationBarTitleText": "管理"
+}

@@ -1,0 +1,25 @@
+
+<view class="container" style="padding-top: {{stateheight}}px">
+  <view class="titleContent">
+    <view class="title">学坛</view>
+    <view class="subtitle">校园学习交流平台</view>
+  </view>
+
+  <!-- 背景 -->
+  <view class="background">
+    <view wx:for="{{coordinate}}" wx:key="y">
+      <image class="icon" src="{{icon}}" style="left: {{item.x}}rpx; top: {{item.y}}rpx" />
+    </view>
+  </view>
+
+  <view class="login" bindtap="getUserProfile">
+    <text>微信登录</text>
+    
+  </view>
+  <view class="userlogin" bindtap="UserLogin">
+    <text>账号登录</text>
+  </view>
+  <view class="register" bindtap="UserRegister">
+    <text>账号注册</text>
+  </view>
+</view>

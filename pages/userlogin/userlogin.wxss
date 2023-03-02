@@ -1,0 +1,37 @@
+/* pages/userlogin/userlogin.wxss */
+.contaner{
+  background-color: pink;
+  border-radius: 25px;
+  height: 220px;
+  width: 55%;
+  padding: 10px 10px 10px 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:300px
+}
+.contaner .zhanghao{
+  margin:10px 5px 5px 10px;
+
+}
+.btn{
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 25px;
+  background-color: #FF8F22
+}
+.contaner .zhanghao input{
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+padding-left: 10px;
+}
+.contaner .mima{
+  margin: 10px 5px 5px 10px;
+
+}
+.contaner .mima input{
+background-color: white;
+border-radius: 10px;
+margin: 5px 5px 5px 5px;
+padding-left: 10px;}

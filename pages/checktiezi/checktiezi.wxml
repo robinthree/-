@@ -1,0 +1,24 @@
+
+
+<view class="container">
+ <van-tabs>
+    <van-tab >
+      <PostList>
+        <PostItem 
+          wx:for="{{newPostList}}" 
+          wx:key="_id" 
+          bindtap="toPost" 
+          id="{{item._id}}" 
+          postItem="{{item}}" 
+          bind:preview="preview" 
+          bind:fabulous="fabulous" 
+          bind:onDelete="onDelete" 
+          operation="{{true}}" 
+        />
+        
+        <view class="baseline" wx:if="{{newReachBottom}}">我也是有底线的</view>
+      </PostList>
+    </van-tab>
+    
+  </van-tabs>
+</view>
